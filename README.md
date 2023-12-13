@@ -1,2 +1,3 @@
-# pomodoro-app
-This is a mobile pomodoro app written with React Native.
+# Pomodoro App
+
+This is a 'pomodoro' timer app intended for use on mobile devices, written with React Native.
