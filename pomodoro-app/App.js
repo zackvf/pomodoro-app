@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { Button, StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   const [count, setCount] = useState(25);
@@ -14,7 +14,7 @@ export default function App() {
       <Text>Pomodoro Timer</Text>
       <StatusBar style="auto" />
       <Text style={styles.countdown_text}>{count}</Text>
-      <Pressable style={styles.button} title='start countdown' onPress={beginCountdown}></Pressable>
+      <Button title='start countdown' onPress={beginCountdown}></Button>
     </View>
   );
 }
