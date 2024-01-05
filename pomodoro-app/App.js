@@ -1,3 +1,7 @@
+// TODO:
+// - [] create an actual time to use with the countdown
+
+
 import { useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { Button, StyleSheet, Text, View } from 'react-native';
