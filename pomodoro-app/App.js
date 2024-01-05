@@ -1,6 +1,6 @@
 // TODO:
 // - [] create an actual time to use with the countdown
-
+// - [] improve the app design, namely adding more color/aesthetics
 
 import { useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
