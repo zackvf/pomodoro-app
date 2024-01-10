@@ -1,6 +1,6 @@
 // TODO:
-// - [] create an actual time to use with the countdown
-// - [] improve the app design, namely adding more color/aesthetics
+// - [] create an actual timer to use with the countdown
+// - [] improve the app design, namely adding more color/aesthetics (lower priority than base functionality)
 // - [] add todo list underneath timer (just pull from todo app)
 // - [] add individual timers for each user-added task (trackers for how long each task took, which are separate from the general timer available at all times/without adding tasks)
 
