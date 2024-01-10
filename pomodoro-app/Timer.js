@@ -3,40 +3,40 @@ import { View, Text, Button, StyleSheet } from 'react-native';
 
 const Timer = () => {
   const [seconds, setSeconds] = useState(0);
-  const [isRunning, setIsRunning] = useState(false);
+  const [timerRunning, setTimerRunning] = useState(false);
 
   useEffect(() => {
     let interval;
 
-    if (isRunning) {
+    if (timerRunning) {
       interval = setInterval(() => {
-        setSeconds((prevSeconds) => prevSeconds + 1);
+        setSeconds(prevSeconds => prevSeconds + 1);
       }, 1000);
     }
 
     return () => clearInterval(interval);
-  }, [isRunning]);
+  }, [timerRunning]);
 
   const startTimer = () => {
-    setIsRunning(true);
+    setTimerRunning(true);
   };
 
   const stopTimer = () => {
-    setIsRunning(false);
+    setTimerRunning(false);
   };
 
   const resetTimer = () => {
     setSeconds(0);
-    setIsRunning(false);
+    setTimerRunning(false);
   };
 
   return (
     <View style={styles.container}>
       <Text style={styles.timerText}>{seconds} seconds</Text>
-      <View style={styles.buttonContainer}>
-        <Button title="Start" onPress={startTimer} />
-        <Button title="Stop" onPress={stopTimer} />
-        <Button title="Reset" onPress={resetTimer} />
+      <View style={styles.buttons}>
+        <Button title="start" onPress={startTimer} />
+        <Button title="stop" onPress={stopTimer} />
+        <Button title="reset" onPress={resetTimer} />
       </View>
     </View>
   );
@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
     fontSize: 24,
     marginBottom: 20,
   },
-  buttonContainer: {
+  buttons: {
     flexDirection: 'row',
     justifyContent: 'space-around',
     width: '60%',

@@ -9,11 +9,11 @@ import { StatusBar } from 'expo-status-bar';
 import { Button, StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
-  const [count, setCount] = useState(25);
+  // const [count, setCount] = useState(25);
   
-  const beginCountdown = () => {
-      setCount(count - 1);
-  };
+  // const beginCountdown = () => {
+  //     setCount(count - 1);
+  // };
 
   return (
     <View style={styles.container}>
