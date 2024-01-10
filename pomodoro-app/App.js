@@ -1,8 +1,9 @@
 // TODO:
-// - [] create an actual timer to use with the countdown
+// - [x] create an actual timer to use with the countdown
+// - [] connect the timer component to the main app component (import)
 // - [] improve the app design, namely adding more color/aesthetics (lower priority than base functionality)
 // - [] add todo list underneath timer (just pull from todo app)
-// - [] add individual timers for each user-added task (trackers for how long each task took, which are separate from the general timer available at all times/without adding tasks)
+// - [] add individual timers for each user-added todo (trackers for how long each task took, which are separate from the general timer available at all times/without adding tasks)
 
 import { useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
