@@ -5,17 +5,11 @@
 // - [] add todo list underneath timer (just pull from todo app)
 // - [] add individual timers for each user-added todo (trackers for how long each task took, which are separate from the general timer available at all times/without adding tasks)
 
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { Button, StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
-  // const [count, setCount] = useState(25);
-  
-  // const beginCountdown = () => {
-  //     setCount(count - 1);
-  // };
-
   return (
     <View style={styles.container}>
       <Text>Pomodoro Timer</Text>
