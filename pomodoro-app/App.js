@@ -8,6 +8,7 @@
 import React, { useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { Button, StyleSheet, Text, View } from 'react-native';
+import Timer from './Timer.js';
 
 export default function App() {
   return (
