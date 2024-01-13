@@ -12,12 +12,13 @@ import Timer from './Timer.js';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Pomodoro Timer</Text>
-      <StatusBar style="auto" />
-      <Text style={styles.countdown_text}>{count}</Text>
-      <Button title='start countdown' onPress={beginCountdown}></Button>
-    </View>
+    // <View style={styles.container}>
+    //   <Text>Pomodoro Timer</Text>
+    //   <StatusBar style="auto" />
+    //   <Text style={styles.countdown_text}>{count}</Text>
+    //   <Button title='start countdown' onPress={beginCountdown}></Button>
+    // </View>
+    <Timer />
   );
 }
 
