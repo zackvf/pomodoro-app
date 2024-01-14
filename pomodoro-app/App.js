@@ -7,7 +7,7 @@
 
 import React, { useState } from 'react'; // do I need useState here? if I'm returning imported components with their own states/state management, what would state being controlling here?
 // import { StatusBar } from 'expo-status-bar';
-import { Button, StyleSheet, Text, View } from 'react-native';
+import { Button, StyleSheet, Text, View } from 'react-native'; // similarly, do we need this either?
 import Timer from './Timer.js';
 
 export default function App() {
