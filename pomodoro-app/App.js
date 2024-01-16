@@ -1,12 +1,11 @@
 // TODO:
 // - [x] create an actual timer to use with the countdown
-// - [] connect the timer component to the main app component (import)
+// - [x] connect the timer component to the main app component (import)
 // - [] improve the app design, namely adding more color/aesthetics (lower priority than base functionality)
 // - [] add todo list underneath timer (just pull from todo app)
 // - [] add individual timers for each user-added todo (trackers for how long each task took, which are separate from the general timer available at all times/without adding tasks)
 
-import React, { useState } from 'react'; // do I need useState here? if I'm returning imported components with their own states/state management, what would state being controlling here?
-// import { StatusBar } from 'expo-status-bar';
+import React, { useState } from 'react'; // do I need useState here? if I'm returning imported components with their own states/state management, what would state be controlling here?
 import { Button, StyleSheet, Text, View } from 'react-native';
 import Timer from './Timer.js';
 
