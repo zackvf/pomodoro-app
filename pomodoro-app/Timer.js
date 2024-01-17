@@ -42,6 +42,7 @@ const Timer = () => {
   );
 };
 
+// Does this component need it's own styles?
 const styles = StyleSheet.create({
   container: {
     flex: 1,
